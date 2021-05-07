@@ -1,0 +1,4 @@
+.idea
+blog/comments/node_modules
+blog/posts/node_modules
+blog/client/node_modules
