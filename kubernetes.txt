@@ -5,5 +5,7 @@ https://medium.com/swlh/how-to-run-locally-built-docker-images-in-kubernetes-b28
 1. minikube docker-env
 2. eval $(minikube -p minikube docker-env)
 
+kubectl apply -f posts-srv.yaml
+
 docker system prune -a
 docker kill $(docker ps -q) - kill all running containers
